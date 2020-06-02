@@ -82,6 +82,8 @@ namespace laboratorio_8
         private void buttontienda_Click(object sender, EventArgs e)
         {
             paneltienda1.Visible = true;
+            panel5.Visible = false;
+            panel6.Visible = false;
             z = "tienda";
         }
 
@@ -95,8 +97,7 @@ namespace laboratorio_8
             particularidad = textBox1.Text;
             Tienda tienda = new Tienda(name, rut, horario, particularidad);
             local.addlocaltienda(tienda);
-            local.saveempresa();
-
+           
 
         }
 
@@ -116,10 +117,11 @@ namespace laboratorio_8
             if (z == "tienda")
             {
                 panel4.Visible = true;
+                panel7.Visible = false;
+                panel8.Visible = false;
                 horario = textBox3.Text;
                 Tienda tienda = new Tienda(name,rut,horario,particularidad);
                 local.addlocaltienda(tienda);
-                local.saveempresa();
                 
 
 
@@ -132,17 +134,16 @@ namespace laboratorio_8
                 horario = textBox3.Text;
                 Restaurantes rest = new Restaurantes(name, rut, horario, particularidad);
                 local.addlocalRest(rest);
-                local.saveempresa();
 
             }
             if (z == "cine")
             {
                 panel4.Visible = true;
                 panel7.Visible = true;
+                panel8.Visible = false;
                 horario = textBox3.Text;
                 Cine cine = new Cine(name, rut, horario, particularidad);
                 local.addlocalcine(cine);
-                local.saveempresa();
             }
             if (z == "recreacional")
             {
@@ -152,7 +153,7 @@ namespace laboratorio_8
                 horario = textBox3.Text;
                 Recreacional rec = new Recreacional(name, rut, horario);
                 local.addlocalre(rec);
-                local.saveempresa();
+                
 
             }
 
@@ -177,18 +178,24 @@ namespace laboratorio_8
         private void buttonrestaurante_Click(object sender, EventArgs e)
         {
             paneltienda1.Visible = true;
+            panel5.Visible = false;
+            panel6.Visible = false;
             z = "restaurante";
         }
 
         private void buttoncine_Click(object sender, EventArgs e)
         {
             paneltienda1.Visible = true;
+            panel5.Visible = false;
+            panel6.Visible = false;
             z = "cine";
         }
 
         private void buttonrecreacional_Click(object sender, EventArgs e)
         {
             paneltienda1.Visible = true;
+            panel5.Visible = false;
+            panel6.Visible = false;
             z = "recreacional";
         }
 
@@ -200,7 +207,7 @@ namespace laboratorio_8
             particularidad = "si";
             Restaurantes rest = new Restaurantes(name, rut, horario, particularidad);
             local.addlocalRest(rest);
-            local.saveempresa();
+            
         }
 
         private void button9_Click(object sender, EventArgs e)
@@ -211,7 +218,7 @@ namespace laboratorio_8
             panel6.Visible = false;
             paneltienda1.Visible = false;
             particularidad = textBox4.Text;
-            local.saveempresa();
+            
         }
 
         private void button10_Click(object sender, EventArgs e)
@@ -242,8 +249,19 @@ namespace laboratorio_8
         private void button11_Click(object sender, EventArgs e)
         {
             local.readempresa();
+            richTextBox1.Text = "";
+            richTextBox1.Clear();
+            if (z == "recreacional")
+            {
+
+            }
+            else
+            {
+                local.total.RemoveAt(0);
+            }
             foreach (var a in local.total)
             {
+                
                 richTextBox1.Text += a;
             }
         }
@@ -261,6 +279,7 @@ namespace laboratorio_8
             particularidad = "no";
             Restaurantes rest = new Restaurantes(name, rut, horario, particularidad);
             local.addlocalRest(rest);
+            
         }
 
         private void panel7_Paint(object sender, PaintEventArgs e)

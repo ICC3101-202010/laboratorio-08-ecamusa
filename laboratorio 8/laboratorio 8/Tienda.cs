@@ -24,7 +24,7 @@ namespace laboratorio_8
         }
         public string infotienda()
         {
-            return "nombre dueno: " + name + " numero identificador: " + rut + " horario: " + horario + " categoria: " + particularidad;
+            return " nombre dueno: " + name + " numero identificador: " + rut + " horario: " + horario + " categoria: " + particularidad;
         }
 
     }

@@ -140,18 +140,14 @@ namespace laboratorio_8
         }
         public void readempresa()
         {
-            
-            for (int q = 0; q < i; q++)
+ 
+            for(int q=0; q < i; q++)
             {
-                
                 total.Add(tiendas[q].infotienda());
-
-
             }
             for (int q = 0; q < y; q++)
             {
                 total.Add(restaurantes[q].inforestaurante());
-
             }
             for (int q = 0; q < z; q++)
             {
@@ -161,6 +157,13 @@ namespace laboratorio_8
             {
                 total.Add(recreacionals[q].inforecreacional());
             }
+
+
+
+
+            
+
+
 
 
 

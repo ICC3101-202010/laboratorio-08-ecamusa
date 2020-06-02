@@ -22,7 +22,7 @@ namespace laboratorio_8
         }
         public string inforecreacional()
         {
-            return "nombre dueno: " + name + " numero identificador: " + rut + " horario: " + horario;
+            return " nombre dueno: " + name + " numero identificador: " + rut + " horario: " + horario;
         }
 
 

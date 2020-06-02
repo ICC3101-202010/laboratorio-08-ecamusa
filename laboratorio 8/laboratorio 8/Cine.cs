@@ -23,7 +23,7 @@ namespace laboratorio_8
         }
         public string infocine()
         {
-            return "nombre dueno: " + name + " numero identificador: " + rut + " horario: " + horario + " numero de salas: " + particularidad;
+            return " nombre dueno: " + name + " numero identificador: " + rut + " horario: " + horario + " numero de salas: " + particularidad;
         }
 
     }

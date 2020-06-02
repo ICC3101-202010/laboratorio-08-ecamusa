@@ -32,52 +32,52 @@
             this.button2 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.button11 = new System.Windows.Forms.Button();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.button3 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.paneltienda1 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.volveratrastienda2 = new System.Windows.Forms.Button();
-            this.tiendasiguiente = new System.Windows.Forms.Button();
-            this.categoria = new System.Windows.Forms.Label();
-            this.volveratrastienda = new System.Windows.Forms.Button();
             this.buttonrestaurante = new System.Windows.Forms.Button();
             this.buttoncine = new System.Windows.Forms.Button();
             this.buttonrecreacional = new System.Windows.Forms.Button();
             this.buttontienda = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.textBox2tienda = new System.Windows.Forms.TextBox();
+            this.paneltienda1 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.button7 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.button8 = new System.Windows.Forms.Button();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.button5 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.button6 = new System.Windows.Forms.Button();
+            this.textBox2tienda = new System.Windows.Forms.TextBox();
+            this.tiendasiguiente = new System.Windows.Forms.Button();
+            this.categoria = new System.Windows.Forms.Label();
+            this.volveratrastienda = new System.Windows.Forms.Button();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.button12 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.button10 = new System.Windows.Forms.Button();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.button12 = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.button11 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.volveratrastienda2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             this.paneltienda1.SuspendLayout();
-            this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel8.SuspendLayout();
             this.SuspendLayout();
@@ -127,6 +127,37 @@
             this.panel3.Visible = false;
             this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
+            // button11
+            // 
+            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button11.Location = new System.Drawing.Point(310, 208);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(238, 74);
+            this.button11.TabIndex = 7;
+            this.button11.Text = "Empezar";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(137, 3);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(284, 191);
+            this.richTextBox1.TabIndex = 6;
+            this.richTextBox1.Text = "";
+            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
+            // 
+            // button3
+            // 
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(16, 208);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(238, 74);
+            this.button3.TabIndex = 5;
+            this.button3.Text = "Volver atras";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // panel2
             // 
             this.panel2.Controls.Add(this.buttonrestaurante);
@@ -140,106 +171,6 @@
             this.panel2.TabIndex = 2;
             this.panel2.Visible = false;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
-            // 
-            // paneltienda1
-            // 
-            this.paneltienda1.Controls.Add(this.panel5);
-            this.paneltienda1.Controls.Add(this.textBox2tienda);
-            this.paneltienda1.Controls.Add(this.tiendasiguiente);
-            this.paneltienda1.Controls.Add(this.categoria);
-            this.paneltienda1.Controls.Add(this.volveratrastienda);
-            this.paneltienda1.Location = new System.Drawing.Point(660, 10);
-            this.paneltienda1.Name = "paneltienda1";
-            this.paneltienda1.Size = new System.Drawing.Size(651, 323);
-            this.paneltienda1.TabIndex = 10;
-            this.paneltienda1.Visible = false;
-            // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.panel7);
-            this.panel4.Controls.Add(this.button4);
-            this.panel4.Controls.Add(this.textBox1);
-            this.panel4.Controls.Add(this.label1);
-            this.panel4.Controls.Add(this.volveratrastienda2);
-            this.panel4.Location = new System.Drawing.Point(688, 339);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(609, 249);
-            this.panel4.TabIndex = 11;
-            this.panel4.Visible = false;
-            // 
-            // button4
-            // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(308, 154);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(238, 74);
-            this.button4.TabIndex = 7;
-            this.button4.Text = "Siguiente";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(103, 98);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(332, 34);
-            this.textBox1.TabIndex = 6;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(98, 57);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(337, 29);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Ingrese categoria de la tienda:";
-            // 
-            // volveratrastienda2
-            // 
-            this.volveratrastienda2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.volveratrastienda2.Location = new System.Drawing.Point(31, 154);
-            this.volveratrastienda2.Name = "volveratrastienda2";
-            this.volveratrastienda2.Size = new System.Drawing.Size(238, 74);
-            this.volveratrastienda2.TabIndex = 4;
-            this.volveratrastienda2.Text = "Volver atras";
-            this.volveratrastienda2.UseVisualStyleBackColor = true;
-            this.volveratrastienda2.Click += new System.EventHandler(this.volveratrastienda2_Click);
-            // 
-            // tiendasiguiente
-            // 
-            this.tiendasiguiente.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tiendasiguiente.Location = new System.Drawing.Point(336, 190);
-            this.tiendasiguiente.Name = "tiendasiguiente";
-            this.tiendasiguiente.Size = new System.Drawing.Size(238, 74);
-            this.tiendasiguiente.TabIndex = 7;
-            this.tiendasiguiente.Text = "Siguiente";
-            this.tiendasiguiente.UseVisualStyleBackColor = true;
-            this.tiendasiguiente.Click += new System.EventHandler(this.tiendasiguiente_Click);
-            // 
-            // categoria
-            // 
-            this.categoria.AutoSize = true;
-            this.categoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.categoria.Location = new System.Drawing.Point(163, 91);
-            this.categoria.Name = "categoria";
-            this.categoria.Size = new System.Drawing.Size(271, 29);
-            this.categoria.TabIndex = 5;
-            this.categoria.Text = "Ingrese dueno del local:";
-            this.categoria.Click += new System.EventHandler(this.categoria_Click);
-            // 
-            // volveratrastienda
-            // 
-            this.volveratrastienda.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.volveratrastienda.Location = new System.Drawing.Point(16, 190);
-            this.volveratrastienda.Name = "volveratrastienda";
-            this.volveratrastienda.Size = new System.Drawing.Size(238, 74);
-            this.volveratrastienda.TabIndex = 4;
-            this.volveratrastienda.Text = "Volver atras";
-            this.volveratrastienda.UseVisualStyleBackColor = true;
-            this.volveratrastienda.Click += new System.EventHandler(this.volveratrastienda_Click);
             // 
             // buttonrestaurante
             // 
@@ -296,24 +227,18 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button3
+            // paneltienda1
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(16, 208);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(238, 74);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "Volver atras";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // textBox2tienda
-            // 
-            this.textBox2tienda.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2tienda.Location = new System.Drawing.Point(168, 129);
-            this.textBox2tienda.Name = "textBox2tienda";
-            this.textBox2tienda.Size = new System.Drawing.Size(332, 34);
-            this.textBox2tienda.TabIndex = 12;
+            this.paneltienda1.Controls.Add(this.panel5);
+            this.paneltienda1.Controls.Add(this.textBox2tienda);
+            this.paneltienda1.Controls.Add(this.tiendasiguiente);
+            this.paneltienda1.Controls.Add(this.categoria);
+            this.paneltienda1.Controls.Add(this.volveratrastienda);
+            this.paneltienda1.Location = new System.Drawing.Point(660, 10);
+            this.paneltienda1.Name = "paneltienda1";
+            this.paneltienda1.Size = new System.Drawing.Size(651, 323);
+            this.paneltienda1.TabIndex = 10;
+            this.paneltienda1.Visible = false;
             // 
             // panel5
             // 
@@ -327,47 +252,6 @@
             this.panel5.Size = new System.Drawing.Size(605, 294);
             this.panel5.TabIndex = 13;
             this.panel5.Visible = false;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(168, 129);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(332, 34);
-            this.textBox2.TabIndex = 12;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
-            // 
-            // button5
-            // 
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(345, 193);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(238, 74);
-            this.button5.TabIndex = 7;
-            this.button5.Text = "Siguiente";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(163, 91);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(230, 29);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Ingrese rut del local:";
-            // 
-            // button6
-            // 
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(16, 190);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(238, 74);
-            this.button6.TabIndex = 4;
-            this.button6.Text = "Volver atras";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // panel6
             // 
@@ -421,6 +305,101 @@
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
+            // textBox2
+            // 
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(168, 129);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(332, 34);
+            this.textBox2.TabIndex = 12;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            // 
+            // button5
+            // 
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(345, 193);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(238, 74);
+            this.button5.TabIndex = 7;
+            this.button5.Text = "Siguiente";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(163, 91);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(230, 29);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Ingrese rut del local:";
+            // 
+            // button6
+            // 
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Location = new System.Drawing.Point(16, 190);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(238, 74);
+            this.button6.TabIndex = 4;
+            this.button6.Text = "Volver atras";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // textBox2tienda
+            // 
+            this.textBox2tienda.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2tienda.Location = new System.Drawing.Point(168, 129);
+            this.textBox2tienda.Name = "textBox2tienda";
+            this.textBox2tienda.Size = new System.Drawing.Size(332, 34);
+            this.textBox2tienda.TabIndex = 12;
+            // 
+            // tiendasiguiente
+            // 
+            this.tiendasiguiente.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tiendasiguiente.Location = new System.Drawing.Point(336, 190);
+            this.tiendasiguiente.Name = "tiendasiguiente";
+            this.tiendasiguiente.Size = new System.Drawing.Size(238, 74);
+            this.tiendasiguiente.TabIndex = 7;
+            this.tiendasiguiente.Text = "Siguiente";
+            this.tiendasiguiente.UseVisualStyleBackColor = true;
+            this.tiendasiguiente.Click += new System.EventHandler(this.tiendasiguiente_Click);
+            // 
+            // categoria
+            // 
+            this.categoria.AutoSize = true;
+            this.categoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.categoria.Location = new System.Drawing.Point(163, 91);
+            this.categoria.Name = "categoria";
+            this.categoria.Size = new System.Drawing.Size(271, 29);
+            this.categoria.TabIndex = 5;
+            this.categoria.Text = "Ingrese dueno del local:";
+            this.categoria.Click += new System.EventHandler(this.categoria_Click);
+            // 
+            // volveratrastienda
+            // 
+            this.volveratrastienda.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.volveratrastienda.Location = new System.Drawing.Point(16, 190);
+            this.volveratrastienda.Name = "volveratrastienda";
+            this.volveratrastienda.Size = new System.Drawing.Size(238, 74);
+            this.volveratrastienda.TabIndex = 4;
+            this.volveratrastienda.Text = "Volver atras";
+            this.volveratrastienda.UseVisualStyleBackColor = true;
+            this.volveratrastienda.Click += new System.EventHandler(this.volveratrastienda_Click);
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.panel7);
+            this.panel4.Controls.Add(this.button4);
+            this.panel4.Controls.Add(this.textBox1);
+            this.panel4.Controls.Add(this.label1);
+            this.panel4.Controls.Add(this.volveratrastienda2);
+            this.panel4.Location = new System.Drawing.Point(688, 339);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(609, 249);
+            this.panel4.TabIndex = 11;
+            this.panel4.Visible = false;
+            // 
             // panel7
             // 
             this.panel7.Controls.Add(this.panel8);
@@ -434,6 +413,62 @@
             this.panel7.TabIndex = 12;
             this.panel7.Visible = false;
             this.panel7.Paint += new System.Windows.Forms.PaintEventHandler(this.panel7_Paint);
+            // 
+            // panel8
+            // 
+            this.panel8.Controls.Add(this.button14);
+            this.panel8.Controls.Add(this.button13);
+            this.panel8.Controls.Add(this.label5);
+            this.panel8.Controls.Add(this.button12);
+            this.panel8.Location = new System.Drawing.Point(6, 8);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(540, 232);
+            this.panel8.TabIndex = 12;
+            this.panel8.Visible = false;
+            // 
+            // button14
+            // 
+            this.button14.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button14.Location = new System.Drawing.Point(319, 67);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(148, 64);
+            this.button14.TabIndex = 9;
+            this.button14.Text = "No";
+            this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
+            // 
+            // button13
+            // 
+            this.button13.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button13.Location = new System.Drawing.Point(115, 67);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(148, 64);
+            this.button13.TabIndex = 8;
+            this.button13.Text = "Si";
+            this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(41, 20);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(488, 29);
+            this.label5.TabIndex = 5;
+            this.label5.Text = "El restaurante cuenta con mesas exclusivas?\r\n";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
+            // 
+            // button12
+            // 
+            this.button12.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button12.Location = new System.Drawing.Point(180, 146);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(238, 74);
+            this.button12.TabIndex = 4;
+            this.button12.Text = "Volver atras";
+            this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // button9
             // 
@@ -476,81 +511,46 @@
             this.button10.UseVisualStyleBackColor = true;
             this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
-            // panel8
+            // button4
             // 
-            this.panel8.Controls.Add(this.button14);
-            this.panel8.Controls.Add(this.button13);
-            this.panel8.Controls.Add(this.label5);
-            this.panel8.Controls.Add(this.button12);
-            this.panel8.Location = new System.Drawing.Point(6, 8);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(551, 232);
-            this.panel8.TabIndex = 12;
-            this.panel8.Visible = false;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(308, 154);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(238, 74);
+            this.button4.TabIndex = 7;
+            this.button4.Text = "Siguiente";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // button12
+            // textBox1
             // 
-            this.button12.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button12.Location = new System.Drawing.Point(180, 146);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(238, 74);
-            this.button12.TabIndex = 4;
-            this.button12.Text = "Volver atras";
-            this.button12.UseVisualStyleBackColor = true;
-            this.button12.Click += new System.EventHandler(this.button12_Click);
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(103, 98);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(332, 34);
+            this.textBox1.TabIndex = 6;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // label5
+            // label1
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(41, 20);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(488, 29);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "El restaurante cuenta con mesas exclusivas?\r\n";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(98, 57);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(337, 29);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Ingrese categoria de la tienda:";
             // 
-            // button13
+            // volveratrastienda2
             // 
-            this.button13.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button13.Location = new System.Drawing.Point(115, 67);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(148, 64);
-            this.button13.TabIndex = 8;
-            this.button13.Text = "Si";
-            this.button13.UseVisualStyleBackColor = true;
-            this.button13.Click += new System.EventHandler(this.button13_Click);
-            // 
-            // button14
-            // 
-            this.button14.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button14.Location = new System.Drawing.Point(319, 67);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(148, 64);
-            this.button14.TabIndex = 9;
-            this.button14.Text = "No";
-            this.button14.UseVisualStyleBackColor = true;
-            this.button14.Click += new System.EventHandler(this.button14_Click);
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Location = new System.Drawing.Point(137, 3);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(284, 191);
-            this.richTextBox1.TabIndex = 6;
-            this.richTextBox1.Text = "";
-            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
-            // 
-            // button11
-            // 
-            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.Location = new System.Drawing.Point(310, 208);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(238, 74);
-            this.button11.TabIndex = 7;
-            this.button11.Text = "Empezar";
-            this.button11.UseVisualStyleBackColor = true;
-            this.button11.Click += new System.EventHandler(this.button11_Click);
+            this.volveratrastienda2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.volveratrastienda2.Location = new System.Drawing.Point(31, 154);
+            this.volveratrastienda2.Name = "volveratrastienda2";
+            this.volveratrastienda2.Size = new System.Drawing.Size(238, 74);
+            this.volveratrastienda2.TabIndex = 4;
+            this.volveratrastienda2.Text = "Volver atras";
+            this.volveratrastienda2.UseVisualStyleBackColor = true;
+            this.volveratrastienda2.Click += new System.EventHandler(this.volveratrastienda2_Click);
             // 
             // Form1
             // 
@@ -569,12 +569,12 @@
             this.panel2.ResumeLayout(false);
             this.paneltienda1.ResumeLayout(false);
             this.paneltienda1.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             this.panel8.ResumeLayout(false);

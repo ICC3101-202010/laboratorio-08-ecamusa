@@ -23,7 +23,7 @@ namespace laboratorio_8
         }
         public string inforestaurante()
         {
-            return "nombre dueno: " + name + " numero identificador: " + rut + " horario: " + horario + " mesas exlusivas: " + particularidad;
+            return " nombre dueno: " + name + " numero identificador: " + rut + " horario: " + horario + " mesas exlusivas: " + particularidad;
         }
     }
 }
